@@ -28,7 +28,7 @@ export const Home = () => {
 
   return (
     <div
-      className="bg-white container flex justify-center items-start w-full h-7xl
+      className="bg-white  flex justify-center items-start w-full h-7xl
      min-h-screen "
     >
       <div className="w-[377px] flex flex-col mt-60 ml-150 p-6 bg-white rounded-lg shadow gap-6">
@@ -58,7 +58,7 @@ export const Home = () => {
 
         <div className="footer flex justify-center justify-self-end gap-1 mt-4 text-sm text-gray-500">
           <span>Powered by</span>
-          <span className="text-blue-500">Sda</span>
+          <span className="text-blue-500">rapidly</span>
         </div>
       </div>
     </div>
