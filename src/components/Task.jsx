@@ -3,7 +3,7 @@ import React from "react";
 export const Task = ({ task, toggleCompleted, deleteTask }) => {
   return (
     <div className="task-item  flex justify-between h-[62px] w-[345px] items-center rounded-md ">
-      <div className="flex items-center gap-3 bg-[#f9FAFB] p-4">
+      <div className="flex items-center gap-3 bg-[#f9FAFB] w-[250px] p-4">
         <input
           type="checkbox"
           checked={task.isCompleted}
