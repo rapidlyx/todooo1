@@ -21,7 +21,7 @@ export const Form = ({ updateTaskList, taskListValue }) => {
     <form onSubmit={handleSubmit} className=" flex gap-2.5">
       <input
         type="text"
-        className="task-input form py-2 px-4 border rounded-md h-10 w-[280px]"
+        className="task-input form py-2 px-4 border rounded-md h-10 w-[280px] text-zinc-950"
         placeholder="Add new task..."
         value={inputValue}
         onChange={(e) => setInputValue(e.target.value)}

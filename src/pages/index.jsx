@@ -10,7 +10,7 @@ export const Home = () => {
 
   const clearCompletedTasks = () => {
     const confirmClear = window.confirm(
-      "Are you sure you want to clear all completed tasks?"
+      "Are you sure you want to clear all completed tasks?",
     );
 
     if (!confirmClear) return;
@@ -28,10 +28,10 @@ export const Home = () => {
 
   return (
     <div
-      className="bg-white  flex justify-center items-start w-full h-7xl
+      className="bg-white  flex justify-center items-center w-full h-7xl
      min-h-screen "
     >
-      <div className="w-[377px] flex flex-col mt-60 ml-150 p-6 bg-white rounded-lg shadow gap-6">
+      <div className="w-[377px] flex justify-center items-center flex-col p-6 bg-white rounded-lg shadow gap-6 text-black">
         <h1 className="title font-semibold flex justify-center text-xl text-black">
           To-Do List
         </h1>

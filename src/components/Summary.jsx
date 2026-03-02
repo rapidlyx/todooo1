@@ -2,7 +2,7 @@ import React from "react";
 
 export const Summary = ({ handleClearCompletedTasks, taskListValue }) => {
   const completedCount = taskListValue.filter(
-    (task) => task.isCompleted
+    (task) => task.isCompleted,
   ).length;
 
   return (
